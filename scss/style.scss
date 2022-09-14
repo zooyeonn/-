@@ -1,9 +1,14 @@
 // @import './abstracts/';
 
 @import 'base/reset';
+@import 'base/font';
 
 // @import './components/';
 
-// @import './layout/';
+@import './layout/header';
+@import './layout/footer';
 
-// @import './pages/';
+@import './pages/intro';
+@import './pages/skill';
+@import './pages/project';
+@import './pages/contact';

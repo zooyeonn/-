@@ -1,0 +1,42 @@
+.contact {
+	position: relative;
+
+	.wrapper {
+		width: 100%;
+
+		.contact_txt {
+			margin-top: 300px;
+
+			> h2 {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				font: bold 58px/1.4 'inter';
+				color: #121212;
+				letter-spacing: -3px;
+			}
+
+			> p {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				margin-top: 30px;
+				font: normal 18px/1.4 'inter';
+				color: #121212;
+				letter-spacing: -1px;
+			}
+		}
+
+		.contact_resume {
+			a {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				margin-top: 50px;
+				font: bold 18px/1.4 'inter';
+				color: #121212;
+				letter-spacing: -1px;
+			}
+		}
+	}
+}

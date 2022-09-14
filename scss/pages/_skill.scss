@@ -1,0 +1,68 @@
+.skill {
+	.wrapper {
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+
+		.skill_title {
+			position: relative;
+			margin-top: 210px;
+
+			h2 {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				font: bold 58px/1.4 'inter';
+				color: #121212;
+				letter-spacing: 5px;
+			}
+		}
+
+		.skill_wrap {
+			position: relative;
+
+			ul {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				align-items: center;
+
+				li {
+					width: 15%;
+					float: left;
+					margin-top: 320px;
+					margin-right: 80px;
+					justify-content: center;
+					text-align: center;
+					align-items: center;
+
+					&:nth-of-type(5) {
+						margin-right: 0;
+					}
+
+					.skill_icon {
+						img {
+							width: 100px;
+							height: 100px;
+						}
+					}
+
+					.skill_name {
+						margin-top: 30px;
+						font: normal 24px/1.4 'inter';
+						color: #121212;
+						letter-spacing: -2px;
+					}
+
+					.skill_info {
+						margin-top: 10px;
+						font: 16px/1.4 'inter';
+						color: #121212;
+						letter-spacing: -1.6px;
+					}
+				}
+			}
+		}
+	}
+}
